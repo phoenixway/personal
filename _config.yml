@@ -17,3 +17,9 @@ plugins:
 # Налаштування меню (поки що залишаємо, як є)
 header_pages:
   - about.md
+  - creations.md
+
+# Collections for non-technical projects
+collections:
+  creations:
+    output: true
