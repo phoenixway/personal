@@ -1,0 +1,69 @@
+---
+---
+
+// 1. Імпортуємо стандартні стилі теми "Hacker"
+@import "{{ site.theme }}";
+
+// 2. Тут будуть ваші власні стилі, які перевизначать стандартні.
+//    Все, що ви напишете нижче, матиме вищий пріоритет.
+
+// Наприклад, змінимо основний шрифт та колір фону
+body {
+  font-family: "Menlo", "Inconsolata", "Consolas", monospace;
+  background-color: #282a36; // Темніший фон, як у стилі Dracula
+  color: #f8f8f2; // Світлий текст
+}
+
+// Зробимо посилання яскравішими
+a {
+  color: #8be9fd; // Блакитний
+  text-decoration: none;
+}
+a:hover {
+  color: #ff79c6; // Рожевий при наведенні
+  text-decoration: underline;
+}
+
+// Стилізуємо заголовки
+h1, h2, h3, h4, h5, h6 {
+  color: #50fa7b; // Зелений
+  border-bottom: 2px solid #6272a4; // Лінія підкреслення
+  padding-bottom: 5px;
+}
+
+// Стилі для блоків коду
+pre, code {
+  background-color: #44475a; // Фон для коду
+  border: 1px solid #6272a4; // Рамка
+  border-radius: 5px;
+}
+
+/* --- Стилі для карток проектів --- */
+.project-card {
+  background-color: #2f323f; // Фон трохи світліший за основний
+  border: 1px solid #6272a4;   // Рамка в стилі теми
+  border-radius: 8px;          // Закруглені кути
+  padding: 1.5em;              // Внутрішні відступи
+  margin-bottom: 2em;          // Відстань між картками
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; // Плавна анімація
+}
+
+.project-card:hover {
+  transform: translateY(-5px); // Легкий підйом при наведенні
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); // Тінь при наведенні
+}
+
+.project-card h3 {
+  margin-top: 0;               // Забрати зайвий відступ у заголовка
+  border-bottom: none;         // Забрати лінію, щоб не було подвійного підкреслення
+  padding-bottom: 0.5em;
+}
+
+/* --- Стилі для фото профілю --- */
+.profile-pic {
+  display: block;              // Робить зображення блочним елементом
+  max-width: 200px;            // Максимальна ширина 200px
+  border-radius: 50%;          // Робить зображення круглим
+  margin: 0 auto 2em;          // Центрує горизонтально і додає відступ знизу
+  border: 3px solid #6272a4;   // Додає рамку в стилі теми
+}

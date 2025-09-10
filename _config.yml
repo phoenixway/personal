@@ -4,17 +4,16 @@ author: "Roman Kozak"
 description: "Особистий блог про життя, ідеї та все, що не стосується коду."
 
 # URL та baseurl (ВАЖЛИВО!)
-# Замініть "personal-blog" на назву вашого репозиторію
 baseurl: "/personal" 
 url: "https://phoenixway.github.io"
 
-# Тема та плагіни (ОНОВЛЕНО ТУТ)
-remote_theme: jekyll/minima # Використовуємо надійніший метод
+# Тема та плагіни
+remote_theme: pages-themes/hacker@v0.2.0 # Змінено на тему "Hacker"
 plugins:
-  - jekyll-remote-theme # Додаємо плагін для роботи remote_theme
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# Налаштування меню
+# Налаштування меню (поки що залишаємо, як є)
 header_pages:
   - about.md
