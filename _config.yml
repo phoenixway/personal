@@ -1,7 +1,7 @@
 # Налаштування сайту
-title: "Думки та нотатки"
+title: "PhoenixWay's Explorations"
+description: "A collection of my non-technical projects, writings, and explorations."
 author: "Roman Kozak"
-description: "Особистий блог про життя, ідеї та все, що не стосується коду."
 
 # URL та baseurl (ВАЖЛИВО!)
 baseurl: "/personal" 
