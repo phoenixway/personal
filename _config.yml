@@ -1,0 +1,19 @@
+# Налаштування сайту
+title: "Думки та нотатки" # Назва вашого нового блогу
+author: "Roman Kozak"
+description: "Особистий блог про життя, ідеї та все, що не стосується коду."
+
+# URL та baseurl (ДУЖЕ ВАЖЛИВО!)
+# ВАЖЛИВО: замініть "personal-blog" на назву вашого репозиторію
+baseurl: "/personal" # Починається з /
+url: "https://phoenixway.github.io" # Ваш основний домен
+
+# Тема та плагіни
+theme: jekyll-theme-minima # Проста та чиста тема для блогу
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Налаштування меню (тема Minima автоматично створить посилання)
+header_pages:
+  - about.md
